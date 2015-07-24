@@ -1,2 +1,2 @@
 # srpc
-a simple/fast roc based on netty, without pain
+a simple/fast rpc based on netty, without pain
