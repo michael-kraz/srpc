@@ -12,9 +12,14 @@ public class RpcClientTest {
     @Test
     public void test() {
 
-        Object service = RpcClient.createProxyService(Object.class, "localhost", 14325);
+        Iface1 service = RpcClient.createProxyService(Iface1.class, "localhost", 14325);
         assertNotNull(service);
 
     }
+
+}
+
+
+interface Iface1{
 
 }
